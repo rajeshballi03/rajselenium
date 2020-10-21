@@ -25,6 +25,7 @@ public class SpiceJetTest {
 		driver.findElement(By.cssSelector("a[class='ui-datepicker-next ui-corner-all']")).click();
 		String test1 = driver.findElement(By.cssSelector("[class='ui-datepicker-title'] [class='ui-datepicker-month']")).getText();
 		System.out.println(test1);
+		System.out.println(test1);
 		/*int sdate=23;
 		int count = driver.findElements(By.cssSelector(".ui-state-default")).size();
 		for (int i=1; i<count; i++) {
